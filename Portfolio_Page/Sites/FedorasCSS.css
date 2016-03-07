@@ -1,0 +1,89 @@
+.page {
+  font-family: 'Playfair Display', serif;
+  margin: 10px auto 10px auto;
+  border: 4px double black;
+}
+
+.top {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+h5 {
+  letter-spacing: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  letter-spacing: 9px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 800;
+}
+
+h3  {
+  letter-spacing: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  text-align: center;
+  width: 900px;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  margin: 40px auto 20px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a:hover {
+  color: red;
+}
+
+.navbar1 {
+  display: inline;
+  padding: 80px;
+}
+
+.navbar2 {
+  display: inline;
+  padding: 80px;
+}
+
+.navbar3 {
+  display: inline;
+  padding: 80px;
+}
+
+.navbar4 {
+  display: inline;
+  padding: 80px;
+}
+
+.greyBaby {
+  margin-left: 16%;
+}
+
+.ad-ons {
+  width: 420px;
+  height: 470px;
+  display: inline;
+  margin-bottom: 50px;
+}
+
+p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.photos {
+  margin-top: 40px;
+  margin-left: 5%;
+}

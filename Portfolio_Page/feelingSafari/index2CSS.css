@@ -18,3 +18,11 @@
   top: 70%;
   left: 25%;
 }
+.submitButton {
+  position: fixed;
+  top: 55%;
+  left: 65%;
+  width: 15%;
+  height: 15%;
+
+}

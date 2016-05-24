@@ -28,6 +28,7 @@
 .answerBox {
   background-color: transparent;
   border: none;
+  outline: none;
   color: white;
   font-size: 18px;
 }

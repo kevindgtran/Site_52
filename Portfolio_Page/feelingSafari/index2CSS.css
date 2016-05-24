@@ -26,6 +26,11 @@
   height: 15%;
 }
 .answerBox {
+  position: fixed;
+  left: 23%;
+  bottom: 11%;
+  width: 42%;
+  height: 9%;
   background-color: transparent;
   border: none;
   outline: none;

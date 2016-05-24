@@ -37,5 +37,13 @@
   color: white;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 20px;
+}
+.questionSurprised {
+  position: fixed;
+  bottom: 24%;
+  left: 30%;
+  width: 28%;
+  height: 5%;
+
 }

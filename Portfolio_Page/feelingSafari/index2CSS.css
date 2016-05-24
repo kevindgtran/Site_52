@@ -20,9 +20,14 @@
 }
 .submitButton {
   position: fixed;
-  top: 55%;
-  left: 65%;
-  width: 15%;
+  top: 74%;
+  left: 66%;
+  width: 12%;
   height: 15%;
-
+}
+.answerBox {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
 }

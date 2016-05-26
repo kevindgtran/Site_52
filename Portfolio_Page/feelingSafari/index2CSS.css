@@ -81,7 +81,15 @@
   height: 58%;
   visibility: hidden;
 }
-.arrows {
+.backButton {
   position: fixed;
+  left: 11%;
+  bottom: 12%;
+  z-index: 2;
+}
+.nextButton {
+  position: fixed;
+  right: 11%;
+  bottom: 12%;
   z-index: 2;
 }

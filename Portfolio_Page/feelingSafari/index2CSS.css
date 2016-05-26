@@ -81,3 +81,7 @@
   height: 58%;
   visibility: hidden;
 }
+.arrows {
+  position: fixed;
+  z-index: 2;
+}

@@ -103,3 +103,11 @@
   height: 7%;
   visibility: hidden;
 }
+.score1 {
+  position: fixed;
+  right: 19%;
+  top: 31%;
+  width: 1%;
+  height: 7%;
+  visibility: hidden;
+}

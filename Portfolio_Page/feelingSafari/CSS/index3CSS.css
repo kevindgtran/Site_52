@@ -95,11 +95,19 @@
   z-index: 2;
   /*need to fix responsiveness*/
 }
-.score0 {
+.score1 {
   position: fixed;
-  right: 18%;
+  right: 19%;
   top: 31%;
-  width: 4%;
+  width: 1%;
   height: 7%;
+  visibility: hidden;
+}
+.score2 {
+  position: fixed;
+  right: 19%;
+  top: 32%;
+  width: 2%;
+  height: 6%;
   visibility: hidden;
 }

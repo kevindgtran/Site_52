@@ -65,7 +65,7 @@
   width: 52%;
   height: 58%;
   z-index: 2;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 .puzzlePiece3 {
   position: fixed;
@@ -73,6 +73,7 @@
   left: 24%;
   width: 52%;
   height: 58%;
+  z-index: 2;
   visibility: hidden;
 }
 .puzzlePiece4 {
@@ -81,6 +82,7 @@
   left: 24%;
   width: 52%;
   height: 58%;
+  z-index: 2;
   visibility: hidden;
 }
 .backButton {

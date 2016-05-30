@@ -42,7 +42,7 @@
   font-size: 20px;
   z-index: 2;
 }
-.questionSurprised {
+.questionLonely {
   position: fixed;
   bottom: 24%;
   left: 30%;
@@ -55,6 +55,7 @@
   left: 24%;
   width: 52%;
   height: 58%;
+  z-index: 2;
   visibility: hidden;
 }
 .puzzlePiece2 {
@@ -63,6 +64,7 @@
   left: 24%;
   width: 52%;
   height: 58%;
+  z-index: 2;
   visibility: hidden;
 }
 .puzzlePiece3 {
@@ -71,7 +73,8 @@
   left: 24%;
   width: 52%;
   height: 58%;
-  visibility: hidden;
+  z-index: 2;
+  /*visibility: hidden;*/
 }
 .puzzlePiece4 {
   position: fixed;
@@ -79,6 +82,7 @@
   left: 24%;
   width: 52%;
   height: 58%;
+  z-index: 2;
   visibility: hidden;
 }
 .backButton {

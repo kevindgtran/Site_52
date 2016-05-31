@@ -6,3 +6,10 @@
   height: 100%;
   z-index: -1;
 }
+.mainPagePlayButton {
+  position: fixed;
+  top: 55%;
+  left: 43%;
+  width: 15%;
+  height: 15%;
+}

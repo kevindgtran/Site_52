@@ -74,7 +74,7 @@
   width: 52%;
   height: 58%;
   z-index: 2;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 .puzzlePiece4 {
   position: fixed;

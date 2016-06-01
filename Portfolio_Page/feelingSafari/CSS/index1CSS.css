@@ -6,6 +6,12 @@
   height: 100%;
   z-index: -1;
 }
+.welcomeBox{
+  border: 5px white solid;
+  padding: 10px 10px;
+  text-align: center;
+
+}
 .mainPagePlayButton {
   position: fixed;
   top: 55%;

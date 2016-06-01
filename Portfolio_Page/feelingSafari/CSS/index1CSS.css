@@ -6,8 +6,18 @@
   height: 100%;
   z-index: -1;
 }
-.welcomeBox{
-  border: 5px white solid;
+.welcomeBox1 {
+  color: white;
+  border: 8px #007f00 solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+}
+.welcomeBox2{
+  color: white;
+  border: 8px #007f00 solid;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 5px;

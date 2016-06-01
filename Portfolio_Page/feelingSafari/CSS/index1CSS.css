@@ -8,9 +8,11 @@
 }
 .welcomeBox{
   border: 5px white solid;
-  padding: 10px 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  padding: 25px;
   text-align: center;
-
 }
 .mainPagePlayButton {
   position: fixed;

@@ -115,3 +115,19 @@
   height: 7%;
   /*visibility: hidden;*/
 }
+.soundIconOn {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  width: 5%;
+  height: 5%;
+  visibility: visible;
+}
+.soundIconOff {
+  position: fixed;
+  top: 5.5%;
+  right: 6%;
+  width: 4%;
+  height: 5%;
+  visibility: hidden;
+}

@@ -13,8 +13,8 @@
   <!-- Content of the page -->
   <div class="set">
   <h1>To-do List</h1>
-  <p><button onclick="addListItem()">+ Add item</button></p>
-  <ol id="todo-list"></ol>
+  <button onclick="addListItem()">+ Add item</button>
+  <ol class="todo-list"></ol>
 
   <!-- JS of the page -->
   <script>
@@ -23,10 +23,12 @@
   var listItem = document.createElement("li");        // create a new list item
 
   listItem.textContent = response;                    // substitute the li with the value from the prompt
-  var parent = document.querySelector("#todo-list");  // add to list
+  var parent = document.querySelector(".todo-list");  // add to list
   parent.appendChild(listItem);                       // grab parent and append child
   };
   </script>
   </div>
 </body>
 </html>
+
+<!-- I wanted to make a simple to-do list using Javascript to record each item the user entered and store them vertically on a numbered list. I started with the title (h1 tag). Added a button for the user to add items to the list (button tag) Wanted the list to be ordered (ol tag). Here's where it gets tricky... I want to record the responses from the click (onclick) into the list. In the JS, created a function (addListItem) that stored a variable (response) from a prompt. then stores the resonse in "listItem" and updates the "li" document element. With that response append it (child) to the parent variable selected as the "ol" class = .todo-list. Added a border, radius, text for a more modern look. -->

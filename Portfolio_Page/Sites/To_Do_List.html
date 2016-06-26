@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="To_Do_List.css" media="screen" title="no title" charset="utf-8">
+    <title>To Do list</title>
+  </head>
+  <body>
+    <div class="set">
+      <h1>To-do List</h1>
+      <!-- <p>Add things to your to-do list below:</p> -->
+      <p><button onclick="addListItem()">+ Add item</button></p>
+      <ol id="todo-list">
+        <!-- <li></li> -->
+      </ol>
+  <script>
+  function addListItem (){                              // create a  function called addListItem here
+    var response = prompt("what needs to get today?");  // prompt for an action (toDo)
+    var listItem = document.createElement("li");        // create a new list item
+
+  listItem.textContent = response;                      // substitute the li with the value from the prompt
+    var parent = document.querySelector("#todo-list");  // add to list
+    parent.appendChild(listItem);                       // grab parent and append child
+    };
+  </script>
+  </div>
+</body>
+</html>

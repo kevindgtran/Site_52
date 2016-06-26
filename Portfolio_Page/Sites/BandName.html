@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Band Name Picker</title>
+    <link rel="icon" href="images/CartoonMic.jpg" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+<!-- CSS for the page -->
+    <style media="screen">
+    .content {position: relative; width: 100%;}
+    h1 span {position: absolute; top: 100px; left: 10px; color: white; font-style: italic;}
+    h2 span {position: absolute; top: 180px; left: 65px; color: white; font-size:39px; font-weight:700;}
+    </style>
+
+<!-- Content on page -->
+  <div class="content">
+  <img src="images/OnStage.jpg" alt="" width="800px" height="600px"/>
+  <h1><span>Welcome on stage! </span></h1>
+  <h2><span></span></h2>
+  <audio src="audio/smallCrowdApplause.mp3"></audio>
+  </div>
+
+<!-- JS for page -->
+  <script type="text/javascript">
+    var response = alert("Welcome! Let's get started picking your band's new name");
+    var color = prompt("What's your favorite color?");
+    var animal = prompt("What is your favorite animal/ mythical creature?");
+    var name = alert("Your new band name is The " + color + " " + animal + "s!");
+    document.querySelector("h2").innerHTML = "<span> The " + color + " " + animal + "s!" + "</span>";
+  </script>
+  </body>
+</html>

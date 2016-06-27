@@ -6,29 +6,30 @@
     <link rel="icon" href="images/CartoonMic.jpg" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-
 <!-- CSS for the page -->
-    <style media="screen">
-    .content {position: relative; width: 100%;}
-    h1 span {position: absolute; top: 100px; left: 10px; color: white; font-style: italic;}
-    h2 span {position: absolute; top: 180px; left: 65px; color: white; font-size:39px; font-weight:700;}
-    </style>
+  <style media="screen">
+  .content {position: relative; width: 100%;}
+  h1 span {position: absolute; top: 100px; left: 10px; color: white; font-style: italic;}
+  h2 span {position: absolute; top: 180px; left: 65px; color: white; font-size:39px; font-weight:700;}
+  </style>
 
 <!-- Content on page -->
   <div class="content">
   <img src="images/OnStage.jpg" alt="" width="800px" height="600px"/>
-  <h1><span>Welcome on stage! </span></h1>
+  <h1><span>Welcome on stage, </span></h1>
   <h2><span></span></h2>
-  <audio src="audio/smallCrowdApplause.mp3"></audio>
   </div>
+  <audio src="audio/smallCrowdApplause.mp3" controls autoplay></audio>
 
 <!-- JS for page -->
   <script type="text/javascript">
-    var response = alert("Welcome! Let's get started picking your band's new name");
-    var color = prompt("What's your favorite color?");
-    var animal = prompt("What is your favorite animal/ mythical creature?");
-    var name = alert("Your new band name is The " + color + " " + animal + "s!");
-    document.querySelector("h2").innerHTML = "<span> The " + color + " " + animal + "s!" + "</span>";
+  var response = alert("Welcome! Let's get started picking your band's new name");
+  var color = prompt("What's your favorite color?");
+  var animal = prompt("What is your favorite animal/ mythical creature?");
+  var name = alert("Your new band name is The " + color + " " + animal + "s!");
+  document.querySelector("h2").innerHTML = "<span> The " + color + " " + animal + "s!" + "</span>";
   </script>
   </body>
 </html>
+
+<!-- Practicing JS's built in prompts by asking the user 2 questions and displaying them on an alert & web page. First created the prompts and alert, stored in variables. Created the page content (img), welcome title (h1) and audio (audio tag). In the JS took the responses and displayed them on the selected document (document.querySelector)... (span tag). On this page I learned/ practiced span & audio tags.  -->

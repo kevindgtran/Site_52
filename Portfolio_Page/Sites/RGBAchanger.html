@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image changer</title>
+  </head>
+  <body>
+
+
+<script>
+ image = new SimpleImage("flower.jpg");
+
+ for(pixel: image){
+   if (pixel.getRed() > 160){
+     pixel.setRed(0);
+     pixel.setGreen(0);
+     pixel.setBlue(0);
+   }
+ }
+
+ print(image);
+</script>
+  </body>
+</html>

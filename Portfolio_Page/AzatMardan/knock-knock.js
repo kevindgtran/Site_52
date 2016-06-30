@@ -11,3 +11,10 @@ emitter.on('knock', function() {
 
 emitter.emit('knock')
 emitter.emit('knock')
+
+//////////////////////////////////////////
+
+// hello.js
+var addon = require('./build/Release/addon');
+
+console.log(addon.hello()); // world

@@ -32,13 +32,24 @@
   </head>
 
   <body>
-
+    <script>
+    var name = prompt("What's your name?");
+    function welcome(name){
+      alert("Welcome " + name + "!");
+      prompt("Ready to master Javascript - functions?");
+      alert("Don\'t worry " + name + " it may seem intimidating at first, but don\'t worry. With a little practice, you\'ll be mastering functions in no time!");
+      alert("So get ready...");
+      alert("fasten your seat belt " + name + ". Make sure your seat\'s back and your laptop\'s in its full-upright position ;) ");
+    }
+    welcome(name);
+    </script>
     <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
             <li role="presentation"><a href="#variable">Variables</a></li>
+            <li role="presentation"><a href="#parameter">Parameters</a></li>
             <li role="presentation"><a href="#argument">Arguments</a></li>
             <li role="presentation"><a href="#command">Commands</a></li>
           </ul>
@@ -48,20 +59,30 @@
 
       <div class="jumbotron">
         <h1>Mastering functions</h1>
-        <p class="lead">functions allow you to accepts arguments and run multiple commands. boom. Done.</p>
+        <p class="lead">functions allow you to accept parameters and run multiple arguments &amp; commands. boom. Done.<br><br><small>[So you can write less code (DRY code) and do other cool stuff.]</small></p>
         <p><a class="btn btn-lg btn-success" href="#" role="button">>>>>>></a></p>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-10">
           <h4 id="variable">Variables</h4>
-          <p>Think of a variable as a box/ container that can hold information. It can hold numbers like (1, 2.5, 35, -107, etc.). Variables can also hold multiple words called strings examples ("hello world", "Kevin")</p>
+          <p>Think of a variable as a box/ container that can hold information. It can hold numbers like (1, 2.5, 35, -107, etc.). Variables can also hold multiple words called strings examples ("hello world", "Kevin") - Example: <br>function <b>welcome</b>()</p>
 
-          <h4 id="argument">Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+          <h4 id="parameter">Parameters</h4>
+          <p>Parameters are the names/<i>variables</i> given to each argument. Example is <br><i>function Name(parameter1, parameter2, parameter3) - Example: <br>function welcome(<b>name</b>) {</i></p>
 
-          <h4 id="command">Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <h4 id="command">Commands</h4>
+          <p>Commands are the actions the function will run - Example: <br><b>alert("Hello " + name);</b></p>
+
+          <h4 id="argument">Arguments</h4>
+          <p>Arguments are the parameters REAL values passed through the function - Example: <br>welcome(<b>"Kevin"</b>);</p><br>
+          Example:
+          <br>function welcome(name) {
+            <br>alert("Hello " + name);
+          <br>}
+          <br>welcome("Kevin");
+
+          <br><br>output = Hello Kevin
         </div>
 
         <!-- <div class="col-lg-6">
@@ -85,8 +106,5 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-
-    </script>
   </body>
 </html>

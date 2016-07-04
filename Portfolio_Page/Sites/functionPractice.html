@@ -12,7 +12,7 @@
     <title>Functions ROCK!</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -72,17 +72,21 @@
           <p>Parameters are the names/<i>variables</i> given to each argument. Example is <br><i>function Name(parameter1, parameter2, parameter3) - Example: <br>function welcome(<b>name</b>) {</i></p>
 
           <h4 id="command">Commands</h4>
-          <p>Commands are the actions the function will run - Example: <br><b>alert("Hello " + name);</b></p>
+          <p>Commands are the actions the function will run. You can run multiple commands within a single funtion - Example: <br><b>alert("Hello " + name);<br>alert("Welcome " + name + "!");</b></p>
 
           <h4 id="argument">Arguments</h4>
           <p>Arguments are the parameters REAL values passed through the function - Example: <br>welcome(<b>"Kevin"</b>);</p><br>
           Example:
           <br>function welcome(name) {
             <br>alert("Hello " + name);
+            <br>alert("Welcome " + name + "!");
           <br>}
           <br>welcome("Kevin");
 
-          <br><br>output = Hello Kevin
+          <br><br>output:
+          <b><br>Hello Kevin
+          <br>Welcome Kevin!</b>
+          <br>
         </div>
       </div>
       <footer class="footer">

@@ -25,9 +25,9 @@
       numTwo.addEventListener("input", add);
 
       function add(){
-        var one = (numOne.value);
-        var two = (numTwo.value);
-        addSum.innerHTML = (one+two);
+        var one = parseFloat(numOne.value) || 0;
+        var two = parseFloat(numTwo.value) || 0;
+        addSum.innerHTML = "Your total is "+(one+two);
       };
 
 

@@ -13,9 +13,22 @@
     <main>
       <h1>Calculator</h1>
       <h4>Adding numbers</h4>
-
+      <p><input id="num-one"> + <input id="num-two"></p>
+      <p id="add-sum"></p>
     </main>
     <script>
+      var numOne = document.getElementById("num-one");
+      var numTwo = document.getElementById("num-two");
+      var addSum = document.getElementById("add-sum");
+
+      numOne.EventListeners("input", add);
+      numTwo.EventListeners("input", add);
+
+      function add(){
+        var one = (numOne.value);
+        var two = (numTwo.value);
+        addSum.innerHTML = (one+two);
+      };
 
 
     </script>

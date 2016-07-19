@@ -21,16 +21,14 @@
       var numTwo = document.getElementById("num-two");        <!--each id is grabbed from the DOM & given a variable-->
       var addSum = document.getElementById("add-sum");        <!--each id is grabbed from the DOM & given a variable-->
 
-      numOne.addEventListener("input", add);
-      numTwo.addEventListener("input", add);
+      numOne.addEventListener("input", add);                  <!--each variable is added an event listener & function-->
+      numTwo.addEventListener("input", add);                  <!--each variable is added an event listener & function-->
 
-      function add(){
-        var one = parseFloat(numOne.value) || 0;
-        var two = parseFloat(numTwo.value) || 0;
+      function add(){                                         <!--running the function, variable and addition-->
+        var one = parseFloat(numOne.value) || 0;              <!--running the function, variable and addition-->
+        var two = parseFloat(numTwo.value) || 0;              <!--running the function, variable and addition-->         
         addSum.innerHTML = "Your total is "+(one+two);
       };
-
-
     </script>
   </body>
 </html>

@@ -12,14 +12,14 @@
     </style>
     <main>
       <h1>Calculator</h1>
-      <h4>Adding numbers</h4>
-      <p><input id="num-one"> + <input id="num-two"></p>
+      <h4>Adding numbers</h4>                                 <!--Comments in the HTML-->
+      <p><input id="num-one"> + <input id="num-two"></p>      <!--Each input is given a unique id-->
       <p id="add-sum"></p>
     </main>
     <script>
-      var numOne = document.getElementById("num-one");
-      var numTwo = document.getElementById("num-two");
-      var addSum = document.getElementById("add-sum");
+      var numOne = document.getElementById("num-one");        <!--each id is grabbed from the DOM & given a variable-->
+      var numTwo = document.getElementById("num-two");        <!--each id is grabbed from the DOM & given a variable-->
+      var addSum = document.getElementById("add-sum");        <!--each id is grabbed from the DOM & given a variable-->
 
       numOne.addEventListener("input", add);
       numTwo.addEventListener("input", add);

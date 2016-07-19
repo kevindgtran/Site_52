@@ -21,8 +21,8 @@
       var numTwo = document.getElementById("num-two");
       var addSum = document.getElementById("add-sum");
 
-      numOne.EventListeners("input", add);
-      numTwo.EventListeners("input", add);
+      numOne.addEventListener("input", add);
+      numTwo.addEventListener("input", add);
 
       function add(){
         var one = (numOne.value);
